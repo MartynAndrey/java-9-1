@@ -1,8 +1,10 @@
 package domain;
 
 public class LikeInfo {
-    private int id;         //идентификатор лайка
-    private int ownerId;    //идентификатор автора лайка
+    private int count;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
 
     //getters + setters
 }
